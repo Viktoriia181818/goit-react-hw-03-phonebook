@@ -17,7 +17,7 @@ export class App extends Component {
   };
 
   componentDidMount() {
-    const contactFromLocalStorage = localStorage.getItem('contacts');
+    const contactFromLocalStorage = localStorage.getItem('contactList');
     const contactToLocalStorage = JSON.parse(contactFromLocalStorage);
 
     if (contactToLocalStorage) {
