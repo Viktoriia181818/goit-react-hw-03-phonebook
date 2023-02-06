@@ -1,0 +1,14 @@
+.contactListItemBtn {
+        height: 42px;
+            width: 76px;
+            display: flow-root;
+        background: black;
+        border-radius: 25px;
+        color: #ffff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+}
